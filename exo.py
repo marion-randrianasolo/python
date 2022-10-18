@@ -240,3 +240,4 @@ print(list(liste_de_nbrs))
 
 default_dict = {}
 print(type(default_dict))
+
