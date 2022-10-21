@@ -72,10 +72,10 @@ chaine_en_ordre = ", ".join(chaine_liste)
 print(chaine_liste)
 print(chaine_en_ordre)
 
-# names = "Pierre, Julien, Anne, Marie, Julien"
-# namesArray = names.split(', ')
-# namesArray.sort()
-# print(namesArray, sep=', ')
+names = "Pierre, Julien, Anne, Marie, Julien"
+namesArray = names.split(', ')
+namesArray.sort()
+print(namesArray, sep=', ')
 
 # EX 8 Liste
 maliste = ["Pierre", "Julien", "Anne", "Marie", "Lucien"]
@@ -173,7 +173,7 @@ nouvelleliste = [x if x != "banane" else "orange" for x in fruits]
 print(nouvelleliste)  # ['orange', 'pomme', 'kiwi', 'mangue']
 
 fruits = ["banane", "pomme", "kiwi", "mangue"]
-fruits.sort(reverse=True)
+#fruits.sort(reverse=True)
 print(fruits)
 
 
@@ -181,9 +181,9 @@ def mafct(n):
     return abs(n - 50)
 
 
-fruits = [100, 52, 87, 65, 82, 23]
-fruits.sort(key=mafct)
-print(fruits)
+# fruits = [100, 52, 87, 65, 82, 23]
+# fruits.sort(key=mafct)
+# print(fruits)
 
 # EX 10 Calcul du volume d'une sphère
 rayon = 10
@@ -226,7 +226,6 @@ def createList(num1, num2):
         numlist.append(num1)
         num1 += 1
     return numlist
-
 
 num1 = 5
 num2 = 15
